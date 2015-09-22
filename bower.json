@@ -1,0 +1,23 @@
+{
+	"name": "aluminium",
+	"version": "1.0.0",
+	"authors": [
+		"David Lopes <dlopes@hi-media.com>",
+		"Tiago Vintém <tvintem@hi-media.com>"
+	],
+	"description": "Aluminium Site, based on Twitter Bootstrap",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"jquery": "jquery#1",
+		"bootstrap": "^4",
+		"fontawesome": "^4",
+		"ionicons": "^2"
+	}
+}

@@ -1,0 +1,50 @@
+// Al LESS by David Lopes
+//
+// Variables
+// --------------------------------------------------
+@al-main: #A1A1A1;
+@al-alt: #EAEAEA;
+
+//
+// Fonts
+// --------------------------------------------------
+
+//Fonts, from Google included in index.html : https://www.google.com/fonts
+
+.al-font{font-family: 'Roboto', sans-serif;}
+.al-font-condensed{font-family: 'Roboto Condensed', sans-serif;}
+
+body{
+	.al-font;
+	padding-top: 54px;
+}
+
+//
+// Al Styles Start
+// --------------------------------------------------
+
+//NAVBAR
+nav.al-navbar{
+	.al-font-condensed;
+	font-weight: 300;
+	background-color: @al-main;
+	.al-brand{
+		font-size: 39px;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: -10px;
+		margin-top: -10px;
+		color:@al-alt;
+	}
+}
+
+//MAIN
+main{
+	.al-jumbotron{
+		.al-font-condensed;
+		font-weight: 400;
+		background-image: url('../img/aluminium.jpg');
+		color:@al-main;
+		border-radius: 0 0 0 250px;
+	}
+}

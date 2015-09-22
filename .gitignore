@@ -1,0 +1,41 @@
+## Generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+## OSX stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+## General stuff
+*.log
+.htaccess
+
+## Project stuff
+node_modules/
+bower_components/
+build/
+
+## Server Keys
+*.ppk
+*.pem
